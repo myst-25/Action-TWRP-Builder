@@ -52,7 +52,7 @@ jobs:
       - name: Clone Device Tree
         run: |
           cd twrp
-          git clone https://github.com/YOUR_USERNAME/twrp_device_oneplus_lemonades.git device/oneplus/lemonades
+          git clone https://github.com/myst-25/twrp_device_oneplus_lemonades_new device/oneplus/lemonades
 
       - name: Set Up Build Environment
         run: |
